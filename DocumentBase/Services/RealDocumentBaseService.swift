@@ -7,7 +7,7 @@ final class RealDocumentBaseService: DocumentBaseServiceProtocol {
 
     // ⚠️ En simulador: usa 127.0.0.1
     // ⚠️ En dispositivo físico: usa la IP de tu Mac en la red Wi-Fi (ej. 192.168.1.x)
-    private let baseURL = "http://127.0.0.1:5000/api"
+    private let baseURL = "http://127.0.0.1:5001/api"
 
     private let session: URLSession = {
         let config = URLSessionConfiguration.default
