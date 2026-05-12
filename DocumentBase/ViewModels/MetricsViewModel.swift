@@ -27,7 +27,7 @@ final class MetricsViewModel: ObservableObject {
 
     // MARK: - Init
 
-    init(service: DocumentBaseServiceProtocol = MockDocumentBaseService()) {
+    init(service: DocumentBaseServiceProtocol = RealDocumentBaseService()) {
         self.service = service
     }
 

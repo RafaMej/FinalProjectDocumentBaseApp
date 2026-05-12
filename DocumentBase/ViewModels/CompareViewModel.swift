@@ -26,7 +26,7 @@ final class CompareViewModel: ObservableObject {
 
     // MARK: - Init
 
-    init(service: DocumentBaseServiceProtocol = MockDocumentBaseService()) {
+    init(service: DocumentBaseServiceProtocol = RealDocumentBaseService()) {
         self.service = service
     }
 

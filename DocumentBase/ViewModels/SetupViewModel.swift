@@ -25,7 +25,7 @@ final class SetupViewModel: ObservableObject {
 
     // MARK: - Init
 
-    init(service: DocumentBaseServiceProtocol = MockDocumentBaseService()) {
+    init(service: DocumentBaseServiceProtocol = RealDocumentBaseService()) {
         self.service = service
     }
 
